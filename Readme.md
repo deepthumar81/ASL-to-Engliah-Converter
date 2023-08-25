@@ -1,60 +1,67 @@
-```markdown
-# Hand Digit Image Recognition
+# ASL to English Converter
 
-This web app is built using the Flask framework and is designed for predicting hand sign digit images using a deep learning model trained with transfer learning.
+![ASL to English Converter](Screenshots\Screenshot 2023-08-25 075215.png)
 
-![Python](https://img.shields.io/badge/python-8338ec)
-![Keras](https://img.shields.io/badge/keras-219ebc)
-![Numpy](https://img.shields.io/badge/numpy-ffafcc)
-![Pillow](https://img.shields.io/badge/pillow-00bbf9)
-![Flask](https://img.shields.io/badge/flask-f72585)
-![Bootstrap](https://img.shields.io/badge/bootstrap-57cc99)
+This project is an ASL (American Sign Language) to English Converter that utilizes various libraries such as Flask, TensorFlow (Keras), NumPy, Pillow (PIL), and Bootstrap. The goal of this project is to convert American Sign Language gestures captured through a camera into corresponding English text.
 
-# Glimpse
+## Table of Contents
 
-Watch the application in action:
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Demo Video](#demo-video)
+- [Technologies Used](#technologies-used)
+- [Contributors](#contributors)
+- [License](#license)
 
-![Glimpse](https://user-images.githubusercontent.com/72191416/201943098-c8f5fd8b-ec7d-4e5d-883d-8b69109b946f.mp4)
+## Introduction
 
-# Dependencies
+American Sign Language (ASL) is a vital form of communication for individuals with hearing impairments. This project aims to bridge the communication gap by converting ASL gestures into English text, allowing a seamless interaction between the hearing-impaired and those who communicate using spoken language.
 
-- Flask
-- TensorFlow (Keras)
-- Numpy
-- Pillow (PIL)
-- Bootstrap
+The project utilizes machine learning techniques to recognize and translate ASL gestures, making use of TensorFlow (Keras) to train a model that can classify different gestures.
 
-# Get Started
+## Installation
 
-Clone the repository into your project directory:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/deepthumar81/ASL-to-Engliah-Converter.git
+   cd ASL-to-Engliah-Converter
+   ```
 
-```sh
-git clone https://github.com/Sachin-crypto/Flask_Image_Recognition.git
-```
+2. Set up a virtual environment (recommended):
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
-Alternatively, you can download the repository as a [ZIP file]() and extract it in your project directory.
+3. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-# Install Dependencies
+## Usage
 
-Install the required dependencies from the `requirements.txt` file:
+1. Run the Flask app:
+   ```bash
+   python app.py
+   ```
 
-```sh
-pip install -r requirements.txt
-```
+2. Open a web browser and navigate to `http://localhost:9000`.
 
-# Run
+3. Allow camera access if prompted, and start performing ASL gestures in front of the camera.
 
-Navigate to the cloned directory and run the script:
+4. The app will recognize the ASL gesture and display the corresponding English text.
 
-```sh
-flask --app app.py run --debug
-```
+## Demo Video
 
-# Test
+[![ASL to English Converter Demo](Screenshots\Screenshot 2023-08-25 075215.png)](https://www.youtube.com/watch?v=yourvideoid)
 
-Follow these steps to test the application:
+## Technologies Used
 
-1. Select an image from the test images folder.
-2. A preview of the uploaded image will be displayed.
-3. Click the **Submit** button to see the magic happen.
-```
+- Flask: Web framework for building the user interface and handling requests.
+- TensorFlow (Keras): Machine learning library used to train the ASL gesture recognition model.
+- NumPy: Library for numerical computations in Python.
+- Pillow (PIL): Python Imaging Library for opening, manipulating, and saving images.
+- Bootstrap: Front-end framework for creating responsive and visually appealing web pages.
+
+Feel free to contribute to the project by opening issues or pull requests.
