@@ -1,6 +1,9 @@
+Sure, here's a readme file created in a similar format to the example you provided:
+
+```markdown
 # Hand Digit Image Recognition
 
-This web app is made using Flask framework and is all about predicting the hand sign digit images based on the deep learning model trained using transfer learning.
+This web app is built using the Flask framework and is designed for predicting hand sign digit images using a deep learning model trained with transfer learning.
 
 ![Python](https://img.shields.io/badge/python-8338ec)
 ![Keras](https://img.shields.io/badge/keras-219ebc)
@@ -11,7 +14,9 @@ This web app is made using Flask framework and is all about predicting the hand 
 
 # Glimpse
 
-https://user-images.githubusercontent.com/72191416/201943098-c8f5fd8b-ec7d-4e5d-883d-8b69109b946f.mp4
+Watch the application in action:
+
+![Glimpse](https://user-images.githubusercontent.com/72191416/201943098-c8f5fd8b-ec7d-4e5d-883d-8b69109b946f.mp4)
 
 # Dependencies
 
@@ -19,41 +24,39 @@ https://user-images.githubusercontent.com/72191416/201943098-c8f5fd8b-ec7d-4e5d-
 - TensorFlow (Keras)
 - Numpy
 - Pillow (PIL)
-
-## UI Framework
-
 - Bootstrap
 
 # Get Started
 
-Clone the repository in your project directory.
+Clone the repository into your project directory:
 
-```commandline
+```sh
 git clone https://github.com/Sachin-crypto/Flask_Image_Recognition.git
 ```
-OR
 
-Download as **[ZIP](https://github.com/Sachin-crypto/Flask_Image_Recognition/archive/refs/heads/main.zip)** file and extract it in your project directory.
+Alternatively, you can download the repository as a [ZIP file]() and extract it in your project directory.
 
 # Install Dependencies
 
-Install the dependencies from the **requirements.txt** file.
+Install the required dependencies from the `requirements.txt` file:
 
-```commandline
+```sh
 pip install -r requirements.txt
 ```
 
 # Run
 
-**cd** into the current directory and run the script.
+Navigate to the cloned directory and run the script:
 
-```commandline
+```sh
 flask --app app.py run --debug
 ```
-Click [here](https://geekpython.in/run-flask-app-from-the-command-line-in-windows) to get the detailed guide on running the Flask app from the command line.
 
 # Test
 
-- Choose an image from the test images folder.
-- You will see a preview of the uploaded image.
-- Click on **Submit** button and see the magic.
+Follow these steps to test the application:
+
+1. Select an image from the test images folder.
+2. A preview of the uploaded image will be displayed.
+3. Click the **Submit** button to see the magic happen.
+```
