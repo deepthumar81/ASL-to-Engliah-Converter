@@ -1,5 +1,3 @@
-Sure, here's a readme file created in a similar format to the example you provided:
-
 ```markdown
 # Hand Digit Image Recognition
 
