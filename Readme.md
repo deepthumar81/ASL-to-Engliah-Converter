@@ -1,6 +1,6 @@
 # ASL to English Converter
 
-![ASL to English Converter](Screenshots\Screenshot 2023-08-25 075215.png)
+![ASL to English Converter](Screenshots\Demo_image.png)
 
 This project is an ASL (American Sign Language) to English Converter that utilizes various libraries such as Flask, TensorFlow (Keras), NumPy, Pillow (PIL), and Bootstrap. The goal of this project is to convert American Sign Language gestures captured through a camera into corresponding English text.
 
@@ -54,7 +54,7 @@ The project utilizes machine learning techniques to recognize and translate ASL 
 
 ## Demo Video
 
-[![ASL to English Converter Demo](Screenshots\Screenshot 2023-08-25 075215.png)](https://www.youtube.com/watch?v=yourvideoid)
+[![ASL to English Converter Demo](Screenshots\Demo_image.png)](https://www.youtube.com/watch?v=yourvideoid)
 
 ## Technologies Used
 
